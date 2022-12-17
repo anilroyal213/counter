@@ -1,0 +1,57 @@
+body{
+    color: black;
+    text-align: center;
+    height: auto;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-weight: bold;
+    
+    
+}
+body::before{
+    content:'';
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background: url("Images/10848.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    opacity: 0.5;
+}
+img{
+    width: 100%;
+    opacity: 0.3;
+}
+.content{
+    position: relative;
+   
+}
+#h1{
+
+    font-size: 2em;
+}
+#count-el{
+    font-size: 2em;
+}
+button{
+    color: white;
+    width: 200px;
+    height: 50px;
+    margin: 3px;
+    border: none;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-weight: bold;
+    border-radius: 6px;
+}
+#increment-button{
+    background-color: green;
+}
+#save-button{
+    background-color: red;
+}
+#clear-all{
+    background-color: black;
+}
